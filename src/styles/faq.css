@@ -1,0 +1,30 @@
+#faq-section {
+  width: auto;
+  height: 100vh;
+  padding-top: 50px;
+}
+.faq-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #9a9a9a;
+}
+.question-box {
+  box-shadow: 1px 1px 10px rgb(170, 170, 170), -1px -5px 10px rgb(170, 170, 170);
+  height: 350px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 22px;
+}
+.question-box h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.question-box p {
+  text-align: center;
+  font-size: 22px;
+  color: #252525;
+}

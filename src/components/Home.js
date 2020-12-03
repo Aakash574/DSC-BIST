@@ -6,6 +6,8 @@ import gear from "../resources/Home/gear.svg";
 
 import "../styles/home.css";
 
+import Faq from "../components/Faq";
+
 const Home = () => {
   return (
     <>
@@ -38,21 +40,13 @@ const Home = () => {
         </div>
         <h4 className="sub-heading text-center mt-2">
           Helping students bridge the gap between
-          <span className="text-purple">
-            &nbsp;theory
-          </span>
+          <span className="text-purple">&nbsp;theory</span>
           &nbsp;and
-          <span className="text-purple">
-            &nbsp;practice
-          </span>
+          <span className="text-purple">&nbsp;practice</span>
         </h4>
 
         <div className="floating-anim mx-auto d-lg-flex d-block ">
-          <img
-            src={gear}
-            alt=""
-            className="gear d-lg-block d-none"
-          />
+          <img src={gear} alt="" className="gear d-lg-block d-none" />
           <img
             src={homeHero}
             alt=""
@@ -60,6 +54,7 @@ const Home = () => {
           />
         </div>
       </section>
+      <Faq></Faq>
     </>
   );
 };
